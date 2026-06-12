@@ -1,6 +1,6 @@
-# Sistema Veterinaria
+﻿# Sistema Veterinaria
 
-Sistema web para gestión de veterinaria con **frontend en React/Vite**, **backend en Node.js/Express** y base de datos **MySQL**.
+Sistema web para gestiÃ³n de veterinaria con **frontend en React/Vite**, **backend en Node.js/Express** y base de datos **MySQL**.
 
 ## Requisitos
 
@@ -25,7 +25,7 @@ Abrir MySQL y ejecutar el script:
 mysql -u root -p < database/veterinaria.sql
 ```
 
-También se puede importar `database/veterinaria.sql` desde phpMyAdmin o MySQL Workbench.
+TambiÃ©n se puede importar `database/veterinaria.sql` desde phpMyAdmin o MySQL Workbench.
 
 ## 3. Configurar el backend
 
@@ -36,19 +36,19 @@ cd backend
 npm install
 ```
 
-Crear el archivo de configuración:
+Crear el archivo de configuraciÃ³n:
 
-1. Copiar el archivo `.env.example`.
+1. Copiar el archivo `.env.ejemplo`.
 2. Pegar la copia en la misma carpeta `backend`.
 3. Cambiar el nombre de la copia a `.env`.
 
-Luego editar `.env` con los datos de MySQL de la PC donde se ejecutará:
+Luego editar `.env` con los datos de MySQL de la PC donde se ejecutarÃ¡:
 
 ```env
 # Configuracion de la base de datos veterinaria
 DB_NAME=veterinaria
 DB_USER=root
-DB_PASSWORD=contraseña_mysql
+DB_PASSWORD=contraseÃ±a_mysql
 DB_HOST=localhost
 DB_PORT=3306
 
@@ -70,7 +70,7 @@ http://localhost:4000
 
 ## 4. Ejecutar el frontend
 
-Abrir otra terminal desde la raíz del proyecto y ejecutar:
+Abrir otra terminal desde la raÃ­z del proyecto y ejecutar:
 
 ```bash
 cd frontend
@@ -86,15 +86,16 @@ http://localhost:5173
 
 ## Usuario de prueba
 
-Después de importar la base de datos, se puede iniciar sesión con:
+DespuÃ©s de importar la base de datos, se puede iniciar sesiÃ³n con:
 
 ```text
 Email: admin@veterinaria.com
-Contraseña: Lima12345
+ContraseÃ±a: Lima12345
 ```
 
 ## Notas
 
 - No se sube `node_modules`; cada PC debe ejecutar `npm install` en `backend` y `frontend`.
-- No se sube el archivo `.env` real porque contiene configuración local/privada.
-- Si el profesor usa otra contraseña de MySQL, debe cambiar `DB_PASSWORD` en `backend/.env`.
+- No se sube el archivo `.env` real porque contiene configuraciÃ³n local/privada.
+- Si el profesor usa otra contraseÃ±a de MySQL, debe cambiar `DB_PASSWORD` en `backend/.env`.
+
