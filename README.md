@@ -36,19 +36,13 @@ cd backend
 npm install
 ```
 
-Copiar el archivo de ejemplo:
+Crear el archivo de configuración:
 
-```bash
-copy .env.example .env
-```
+1. Copiar el archivo `.env.example`.
+2. Pegar la copia en la misma carpeta `backend`.
+3. Cambiar el nombre de la copia a `.env`.
 
-En Linux/Mac:
-
-```bash
-cp .env.example .env
-```
-
-Editar `.env` con los datos de MySQL de la PC donde se ejecutará:
+Luego editar `.env` con los datos de MySQL de la PC donde se ejecutará:
 
 ```env
 # Configuracion de la base de datos veterinaria
