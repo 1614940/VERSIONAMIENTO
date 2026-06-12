@@ -74,5 +74,5 @@ CREATE TABLE IF NOT EXISTS historial_clinico (
 );
 
 INSERT INTO usuarios (nombre, email, password, rol)
-VALUES ('Administrador', 'admin@veterinaria.com', '123456', 'admin')
+VALUES ('Administrador', 'admin@veterinaria.com', 'Lima12345', 'admin')
 ON DUPLICATE KEY UPDATE nombre = VALUES(nombre), password = VALUES(password), rol = VALUES(rol);

@@ -51,12 +51,15 @@ cp .env.example .env
 Editar `.env` con los datos de MySQL de la PC donde se ejecutará:
 
 ```env
+# Configuracion de la base de datos veterinaria
 DB_NAME=veterinaria
 DB_USER=root
-DB_PASSWORD=tu_password_mysql
+DB_PASSWORD=contraseña_mysql
 DB_HOST=localhost
 DB_PORT=3306
-JWT_SECRET=cambia_este_secreto
+
+# Clave secreta para el sistema veterinaria
+JWT_SECRET=clave_secreta_veterinaria
 ```
 
 Ejecutar el backend:
@@ -93,7 +96,7 @@ Después de importar la base de datos, se puede iniciar sesión con:
 
 ```text
 Email: admin@veterinaria.com
-Contraseña: 123456
+Contraseña: Lima12345
 ```
 
 ## Notas
